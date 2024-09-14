@@ -1,0 +1,32 @@
+/* Ensures all cards have the same height */
+
+.icon-background {
+  background-color: #96bb7c;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+/* Styles for the Learn More link and hover effect */
+.learn-more {
+  display: inline-flex;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.learn-more .arrow {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.learn-more:hover .arrow {
+  transform: translateX(5px);
+}
+
+.arrow-icon {
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.arrow-icon:hover {
+  transform: translateX(5px);
+}
